@@ -68,3 +68,36 @@ Ex;
 
     print('I Love You '+ 3000 * 3)
     >> TypeError: can only concatenate str (not "int") to str
+
+### 6. Variables
+We can create a variable in python.
+Cant create a variable starting with digit, start with special character and etc.
+
+    a = 1
+    b = 2
+    c = a+b
+    print(c)
+    del c
+    print(a*b)
+    print(a**b)
+    print(b-a)
+    print(b/1)
+    print(b//1)
+    print(c) # NameError: name 'c' is not defined
+
+    Output:
+
+    3
+    2
+    1
+    1
+    2.0
+    2
+    Traceback (most recent call last):
+    File "D:\xyz\Courses\tutedude\Python\Classes\Module-2\variables.py", line 11, in <module>
+        print(c) # NameError: name 'c' is not defined
+            ^
+    NameError: name 'c' is not defined
+
+
+        
