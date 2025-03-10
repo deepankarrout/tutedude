@@ -41,3 +41,30 @@
     Apple   10
     Orange  20
     Mango   50
+
+### 5. String Operations
+1. We can add two string in python.
+2. We can multiply string with an integer.
+3. Cant add a string with integer.
+
+Ex;
+
+    print('I '+'am'+'a'+'student.');
+    >> I am a student.
+
+    print('I Love You '+'3000')
+    >> I Love You 3000
+
+    print('I Love You '+3000)
+    >> TypeError: can only concatenate str (not "int") to str
+
+    print('I Love You 3000 ' * 3)
+    >> I Love You 3000 I Love You 3000 I Love You 3000
+
+    print('I Love You 3000 \n' * 3)
+    >>  I Love You 3000 
+        I Love You 3000
+        I Love You 3000
+
+    print('I Love You '+ 3000 * 3)
+    >> TypeError: can only concatenate str (not "int") to str
