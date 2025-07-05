@@ -7,8 +7,8 @@ Problem Statement: Write a Python program that:
 
 #Solution
 
-firstName = input("Enter your first name: ")
-lastName = input("Enter your last name: ")
+firstName = input("Enter your first name: ") #Take first input
+lastName = input("Enter your last name: ") #Take second input
 
 print()
 
